@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white  border-bottom position-sticky   w-100  ">
+            <div class="container-fluid">
+                <div class="d-flex flex-grow-1"> <!-- This ensures icons are aligned to the left -->
+                    <div class="navbar-brand d-flex gap">
+                        <!-- Icons -->
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-vimeo-v"></i>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="nav justify-content-center flex-grow-1">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active text-black" href="#" id="navbarHomeDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarHomeDropdown">
+                                    <li><a class="dropdown-item" href="#">Slider styles</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and Grid</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and list</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN LIST</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN GRId</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & GRID</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & List</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active text-black" href="#"
+                                    id="navbarFeaturesDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Features
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarFeaturesDropdown">
+                                    <li><a class="dropdown-item" href="#">Slider styles</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and Grid</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and list</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN LIST</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN GRId</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & GRID</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & List</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item  dropdown ">
+                                <a class="nav-link dropdown-toggle active text-black" href="#"
+                                    id="navbarFeaturesDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarFeaturesDropdown">
+                                    <li><a class="dropdown-item" href="#">Card</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">My account</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Checkaccount</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active text-black" href="#"
+                                    id="navbarFeaturesDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Fashion
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarFeaturesDropdown">
+                                    <li><a class="dropdown-item " href="#">Slider styles</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and Grid</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and list</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN LIST</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN GRId</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & GRID</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & List</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active text-black" href="#"
+                                    id="navbarFeaturesDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Features
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarFeaturesDropdown">
+                                    <li><a class="dropdown-item" href="#">Slider styles</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and Grid</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">First large and list</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN LIST</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">OVERLAY THEN GRId</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & GRID</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li><a class="dropdown-item" href="#">MIXED - LARGE & List</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  active text-black" href="#" id="navbarFeaturesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Buy theme
+                                </a>
+                            </li>
+                        </ul>
+                    </ul>
+                    <form class="d-flex form" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Title">
+            <div class="container text-center pt-5 ">
+                <div class="col-lg-12 ">
+                    <div class="imageMain d-flex justify-content-center">
+                        <img src="./assets/img/cheerup-blog-theme.webp" alt="" class="mb-5 ">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="second"
+">
+            <div class="container-fluid">
+                <div class="col-lg-12">
+                    <div class="banner text-center">
+                        <span class="sub-title">Browsing</span>
+                        <h2 class="title">The Shop</h2>
+                        <i class="bg mb-5 ">Browsing</i>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="products" class="mb-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="filter">
+
+                            <span>Sort by latest <i class="fa-solid fa-angle-down"></i></span>
+
+                            <ul class="drop">
+
+                                <li data-value="popularity" class="list-unstyled  "><a href="#"
+                                        class="text-decoration-none text-black ">Sort by popularity</a></li>
+                                <div class="border-bottom"></div>
+                                <li data-value="rating" class="list-unstyled "><a href="#"
+                                        class="text-decoration-none text-black">Sort by average rating</a></li>
+                                <div class="border-bottom"></div>
+                                <li data-value="date" class="list-unstyled "><a href="#"
+                                        class="text-decoration-none text-black">Sort by latest</a></li>
+                                <div class="border-bottom"></div>
+                                <li data-value="price" class="list-unstyled "><a href="#"
+                                        class="text-decoration-none text-black">Sort by price: low to high</a></li>
+                                <div class="border-bottom"></div>
+                                <li data-value="price-desc" class="list-unstyled "><a href="#"
+                                        class="text-decoration-none text-black">Sort by price: high to low</a></li>
+                            </ul>
+                        </div>
+                        <div class="cardsAll">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4">
+
+                                        <div class="imagePart">
+                                            <img src="./assets/img/tunic-dress-scaled-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/denim-bag-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/skinny-jeans-scaled-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/wood-heel-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/belted-dress-scaled-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/isabelle-skirt-scaled-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/curzon-culotte-scaled-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/florence-point-2-scaled-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="imagePart">
+                                            <img src="./assets/img/tilly-bag-scaled-540x540.jpg" alt="">
+                                        </div>
+                                        <h2 class="eccomerceTitle text-center ">TUNIC DRESS</h2>
+                                        <a href="https://cheerup.theme-sphere.com/product-category/dresses/"
+                                            class="product-cat text-center ">Dresses</a>
+                                        <span class=" amount center-span"><span
+                                                class="woocommerce-Price-currencySymbol ">$</span>40</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="TheAllOnes">
+                            <h5 class="widget-title">Filter by price</h5>
+                            <input type="range" class="form-range mb-4" id="customRange1">
+                            <button type="submit" class="button">Filter</button>
+                            <span class="first">price: <span class="secondOne">$50</span>-<span
+                                    class="secondOne">70</span></span>
+                            <h5 class="widget-title this">Product Categories</h5>
+                            <div class="categories">
+                                <ul class="compenets">
+                                    <li>Accessories
+                                        <span class="count">(4)</span>
+                                    </li>
+                                    <li>
+                                        Dresses
+                                        <span class="count">(5)</span>
+                                    </li>
+                                    <li>
+                                        Pants &amp; Jeans
+                                        <span class="count">(5)</span>
+                                    </li>
+                                    <li>
+                                        Uncategorized
+                                        <span class="count">(0)</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h5 class="widget-title this mb-3 ">Top Rated Products</h5>
+                            <ul>
+                                <li class="list-unstyled mb-3 ">
+                                    <a href="" class="text-decoration-none  text-black ">
+                                        <span>
+                                            <img class="imageFor" src="./assets/img/tunic-dress-scaled-540x540.jpg"
+                                                alt="">
+                                        </span>
+                                        <span>
+                                            TUNIC DRESS
+                                        </span>
+
+                                    </a>
+
+                                    <span class="woocommerce-Price-amount amount" style="    position: relative;
+                                    top: 36px;
+                                    right: 75px;"><span class="woocommerce-Price-currencySymbol">$</span>40</span>
+
+                                </li>
+                                <li class="list-unstyled mb-3 ">
+                                    <a href="" class="text-decoration-none  text-black ">
+                                        <span>
+                                            <img class="imageFor" src=".\assets\img\denim-bag-540x540.jpg" alt="">
+                                        </span>
+                                        <span>
+                                            TUNIC DRESS
+                                        </span>
+
+                                    </a>
+
+                                    <span class="woocommerce-Price-amount amount" style="    position: relative;
+                                    top: 36px;
+                                    right: 75px;"><span class="woocommerce-Price-currencySymbol">$</span>40</span>
+
+                                </li>
+                                <li class="list-unstyled ">
+                                    <a href="" class="text-decoration-none  text-black ">
+                                        <span>
+                                            <img class="imageFor" src=".\assets\img\skinny-jeans-scaled-540x540.jpg"
+                                                alt="">
+                                        </span>
+                                        <span>
+                                            TUNIC DRESS
+                                        </span>
+
+                                    </a>
+
+                                    <span class="woocommerce-Price-amount amount" style="    position: relative;
+                                    top: 36px;
+                                    right: 75px;"><span class="woocommerce-Price-currencySymbol">$</span>40</span>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="news" class="mb-5">
+            <div class="container">
+                <div class="row   ">
+                    <div class="col-lg-4">
+                        <div class="allParts">
+                            <h5>About</h5>
+                            <div class="imagePartOfNews d-flex flex-lg-column align-items-center mb-4">
+                                   <img src="./assets/img/about-footer.jpg" alt="" style="width: 352.64px; height: 160.2px;">
+                            </div>
+                            <div class="textNews">
+                                <p>Sed ut in perspiciatis unde omnis iste natus error sit on i  tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="allParts">
+                            <h5>LATEST POSTS
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="allParts">
+                            <h5>Top Rated Products</h5>
+                            <ul>
+                                <li class="list-unstyled mb-3 ">
+                                    <a href="" class="text-decoration-none  text-black ">
+                                        <span>
+                                            <img class="imageFor" src="./assets/img/tunic-dress-scaled-540x540.jpg"
+                                                alt="">
+                                        </span>
+                                        <span>
+                                            TUNIC DRESS
+                                        </span>
+
+                                    </a>
+
+                                    <span class="woocommerce-Price-amount amount" style="    position: relative;
+                                    top: 36px;
+                                    right: 75px;"><span class="woocommerce-Price-currencySymbol">$</span>40</span>
+
+                                </li>
+                                <li class="list-unstyled mb-3 ">
+                                    <a href="" class="text-decoration-none  text-black ">
+                                        <span>
+                                            <img class="imageFor" src=".\assets\img\denim-bag-540x540.jpg" alt="">
+                                        </span>
+                                        <span>
+                                            TUNIC DRESS
+                                        </span>
+
+                                    </a>
+
+                                    <span class="woocommerce-Price-amount amount" style="    position: relative;
+                                    top: 36px;
+                                    right: 75px;"><span class="woocommerce-Price-currencySymbol">$</span>40</span>
+
+                                </li>
+                                <li class="list-unstyled ">
+                                    <a href="" class="text-decoration-none  text-black ">
+                                        <span>
+                                            <img class="imageFor" src=".\assets\img\skinny-jeans-scaled-540x540.jpg"
+                                                alt="">
+                                        </span>
+                                        <span>
+                                            TUNIC DRESS
+                                        </span>
+
+                                    </a>
+
+                                    <span class="woocommerce-Price-amount amount" style="    position: relative;
+                                    top: 36px;
+                                    right: 75px;"><span class="woocommerce-Price-currencySymbol">$</span>40</span>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid ">
+            <div class="row imagesFooter  ">
+                <div class="col-lg-2 px-0 ">
+                    <img src="./assets/img/insta-file-1621255521.92062229220.jpg" alt="">
+                </div>
+                <div class="col-lg-2  px-0 ">
+                    <img src="./assets/img/insta-file-1621255527.82564218383.jpg" alt="">
+                </div>
+                <div class="col-lg-2  px-0 ">
+                    <img src="./assets/img/insta-file-1621255534.80436890118.jpg" alt="">
+                </div>
+                <div class="col-lg-2  px-0 ">
+                    <img src="./assets/img/insta-file-1621255540.4069783213.jpg" alt="">
+                </div>
+                <div class="col-lg-2  px-0 ">
+                    <img src="./assets/img/insta-file-1621255545.44254422647.jpg" alt="">
+                </div>
+                <div class="col-lg-2  px-0 ">
+                    <img src="./assets/img/insta-file-1621255550.57983436205.jpg" alt="">
+                </div>
+            </div>
+            <p class="footer text-center ">© 2024 ThemeSphere. Designed by </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
